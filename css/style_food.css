@@ -1,0 +1,177 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+a {
+  text-decoration: none;
+}
+ul {
+  list-style: none;
+}
+
+body {
+  overflow-x: hidden;
+  font-family: "Times New Roman";
+}
+
+/* Navbar Section */
+.navbar {
+  background: #49497e;
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  padding: 20px;
+}
+
+.active {
+  text-decoration: underline;
+  font-weight: bold;
+}
+
+.nav-link{
+  margin: 0 30px;
+}
+
+/* Header */
+header {
+  width: 100vw;
+  height: 100vh;
+  background-image: url('../img/Food.jpg');
+  background-position: bottom;
+  background-size: cover;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+}
+.header-content {
+  margin-bottom: 150px;
+  color: whitesmoke;
+  text-align: center;
+}
+.header-content h2 {
+  font-size: 4vmin;
+}
+.line {
+  width: 150px;
+  height: 4px;
+  background: #fc036b;
+  border-color: #fc036b;
+  margin: 10px auto;
+  border-radius: 5px;
+}
+.header-content h1 {
+  font-size: 7vmin;
+  margin-top: 50px;
+  margin-bottom: 30px;
+}
+
+/* Meatador & Roku sections */
+.food-page {
+  background-color: #fff;
+  text-align: center;
+  padding: 50px;
+}
+
+.Restaurant-title {
+  color: #49497e;
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+.food-description {
+  flex: 1;
+  padding: 20px;
+  text-align: left;
+  color: #49497E;
+  font-size: 1.2rem;
+}
+
+/* Gasteria section */
+.food-page2{
+  background-color: #49497E;
+  text-align: center;
+  padding: 50px;
+}
+
+.Restaurant-title2 {
+  color: #fff;
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+.reverse{
+  flex-direction: row-reverse;
+}
+
+.food-description2 {
+  flex: 1;
+  padding: 20px;
+  text-align: left;
+  color: #fff;
+  font-size: 1.2rem;
+}
+
+.restaurant-info {
+  background-color: #49497E;
+}
+
+/* General */
+.row{
+  padding: 0px 50px;
+}
+
+.instagram-button {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #E1306C;
+  color: #fff;
+  border-radius: 5px;
+  margin-top: 20px;
+  font-weight: bold;
+  border-color: #C72059;
+}
+
+.instagram-button:hover {
+  background-color: #C72059;
+  border-color: #E1306C;
+}
+
+.restaurant-line {
+  width: 250px;
+  height: 5px;
+  background-color: #FC036B;
+  margin: 0 auto 50px auto;
+  border-radius: 5px;
+}
+
+/* Carousel */
+.carousel-inner img {
+  width: 80%;
+  height: 80%;
+}
+
+.carousel-control-prev{
+  margin-left: 80px;
+}
+
+.carousel-control-next{
+  margin-right: 80px;
+}
+
+/* Footer */
+.footer {
+  width: 100%;
+  min-height: 100px;
+  padding: 20px 80px;
+  margin-top: 50px;
+  background: #484872;
+  text-align: center;
+}
+.footer p {
+  color: whitesmoke;
+  margin: 20px auto;
+}

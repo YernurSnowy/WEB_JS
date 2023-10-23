@@ -1,0 +1,126 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+a {
+  text-decoration: none;
+}
+ul {
+  list-style: none;
+}
+
+body {
+  overflow-x: hidden;
+  font-family: "Times New Roman";
+}
+
+/* Navbar Section */
+.navbar {
+  background: #49497e;
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  padding: 20px;
+}
+
+.active {
+  text-decoration: underline;
+  font-weight: bold;
+}
+
+.nav-link{
+  margin: 0 30px;
+}
+
+/* Title */
+.Team{
+  margin-top: 100px;
+}
+
+.Team-title{
+  color: #49497e;
+  font-size: 3rem;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.Team-line{
+  width: 150px;
+  height: 4px;
+  background: #fc036b;
+  border-color: #fc036b;
+  margin: 10px auto;
+  border-radius: 5px;
+}
+
+.Sub-title{
+  color: #7C7C7C;
+  font-size: 1rem;
+  margin: 30px 0px 0px;
+  text-align: center;
+}
+
+/* Cards */
+.row{
+  padding: 50px 0px 50px 150px;;
+  justify-content: center;
+}
+
+.card{
+  border-width: 20px;
+  border-radius: 20px;
+  border-color: #49497E;
+  height: 95%;
+  width: 50%
+}
+
+.card-body{
+  background-color: #49497E;
+  text-align: center;
+}
+
+.text{
+  font-size: 2rem;
+  color: #F5F5F5;
+}
+
+.instagram-button {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #E1306C;
+  color: #fff;
+  border-radius: 5px;
+  margin: 20px;
+  font-weight: bold;
+  border-color: #C72059;
+}
+
+.instagram-button:hover {
+  background-color: #C72059;
+  border-color: #E1306C;
+}
+
+.Alikhan{
+  padding-top: 50px;
+  padding-bottom: 20px;
+  background: #49497E;
+
+}
+
+/* Footer */
+.footer {
+  width: 100%;
+  min-height: 100px;
+  padding: 20px 80px;
+  margin-top: 0px;
+  background: #484872;
+  text-align: center;
+}
+.footer p {
+  color: whitesmoke;
+  margin: 20px auto;
+}
